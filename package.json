@@ -1,0 +1,25 @@
+{
+  "name": "peepee",
+  "version": "1.0.0",
+  "description": "A peer-to-peer videochat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/out-of-format/peepee-chat.git"
+  },
+  "keywords": [
+    "peer-to-peer",
+    "videochat",
+    "conversation",
+    "chat"
+  ],
+  "author": "out-of-format",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/out-of-format/peepee-chat/issues"
+  },
+  "homepage": "https://github.com/out-of-format/peepee-chat#readme"
+}
