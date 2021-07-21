@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/out-of-format/peepee-chat#readme",
   "devDependencies": {
-    "electron": "^13.1.7"
+    "electron": "^13.1.7",
+    "jquery": "^3.6.0"
   }
 }
