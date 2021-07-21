@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/out-of-format/peepee-chat/issues"
   },
-  "homepage": "https://github.com/out-of-format/peepee-chat#readme"
+  "homepage": "https://github.com/out-of-format/peepee-chat#readme",
+  "devDependencies": {
+    "electron": "^13.1.7"
+  }
 }
