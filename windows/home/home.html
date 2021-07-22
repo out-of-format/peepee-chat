@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Peepee</title>
+    <link rel="stylesheet" href="../../contents/bootstrap-5.0.2/bootstrap.css" />
+    <link rel="stylesheet" href="home.css">
+  </head>
+  <body>
+      <div class="container-fluid">
+        <div class="row"  id="row-title">
+            <div class="col-12 text-center">
+                <span id="brand-title">Peepee</span>
+            </div>
+        </div>
+        <div class="row" id="row-url">
+            <div class="col-3 text-end">
+                <label for="field-url">URL:</label>
+            </div>
+            <div class="col-9">
+                <input type="text" id="field-url" size="64" maxlength="64" placeholder="Example: WaterCoconuts">
+            </div>
+        </div>
+        <div class="row" id="row-action">
+            <div class="col-12 text-center">
+                <button class="btn btn-primary" id="btn-create">Create</button>
+                <button class="btn" id="btn-join">Join</button>
+            </div>
+        </div>
+      </div>
+  </body>
+</html>
